@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpapers">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/startButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Start"
+        android:textColor="@android:color/white"
+        app:backgroundTint="#4CAF50"
+        app:cornerRadius="8dp"
+        app:elevation="4dp"
+        app:icon="@drawable/ic_baseline_play_arrow_24"
+        app:iconGravity="start"
+        app:iconPadding="8dp"
+        app:iconTint="@android:color/white"
+        app:rippleColor="#80FF4081"
+        tools:ignore="UnusedAttribute" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/stopButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/startButton"
+        android:layout_alignStart="@id/startButton"
+        android:layout_marginTop="16dp"
+        android:text="Stop"
+        android:textColor="@android:color/white"
+        app:backgroundTint="#F44336"
+        app:cornerRadius="8dp"
+        app:elevation="4dp"
+        app:icon="@drawable/ic_baseline_stop_24"
+        app:iconGravity="start"
+        app:iconPadding="8dp"
+        app:iconTint="@android:color/white"
+        app:rippleColor="#80FF4081"
+        tools:ignore="UnusedAttribute" />
+
+</RelativeLayout>
